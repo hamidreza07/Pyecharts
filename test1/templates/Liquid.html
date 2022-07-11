@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}LIQUID{% endblock %}
+
+
+{% block content %} 
+<form action="#" method="post">
+    <p>tag name:</p>
+    <p><input type="text" name="tag"></p>
+    <p>showing number:</p>
+    <p><input type="number" name="show"></p>
+    <p>liquid number:</p>
+    <p><input type="number" name="liquid"></p>
+
+
+    <input class="scrollabletextbox" list="animation" name="animation" placeholder="animation">
+    <p><input type="submit" value="submit"></p> 
+              <datalist  id="animation">
+               <option value="OK">
+               <option value="NO">
+               </p> 
+
+</form>
+{% endblock %}

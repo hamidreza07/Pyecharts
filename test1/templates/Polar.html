@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}POLAR{% endblock %}
+
+
+{% block content %} 
+<form action="#" method="post">
+    <p>Polar numbers:</p>
+    <p><input type="text" name="nm"></p>
+    <p>numbers:</p>
+    <p><input type="text" name="nm1"></p>
+    <p>show numbers:</p>
+    <input class="scrollabletextbox" list="show" name="show" placeholder="show numbers">
+    <p><input type="submit" value="submit"></p> 
+              <datalist  id="show">
+               <option value="OK">
+               <option value="NO">
+               </p> 
+
+
+    <p><input type="submit" value="submit"></p>
+
+</form>
+{% endblock %}
