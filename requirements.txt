@@ -12,5 +12,5 @@ setuptools  == 61.2.0
 simplejson  == 3.17.6
 wcwidth     == 0.2.5
 Werkzeug    == 3.0.3
-wheel       == 0.37.1
+wheel       == 0.38.1
 wincertstore== 0.2
